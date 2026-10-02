@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="assets/icons/favicon (1).ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Portfólio</title>
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <div class="brand">
+        <div class="logo">&lt;/&gt;</div>
+        <span class="nome-site">Pedro Colares</span>
+      </div>
+
+      <nav class="navegacao" aria-label="Navegação principal">
+        <ul>
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+
+      <button id="btn-tema" class="btn-tema" type="button" aria-label="Alterar tema">
+        🌙 Alterar Tema
+      </button>
+    </header>
+
+    <main>
+      <section id="inicio">
+        <div class="codigo-bg" aria-hidden="true">
+          &lt;linearGradient&gt;<br />
+          &lt;rect width="800" height="450" rx="8" fill="url(#bg)" /&gt;<br />
+          &lt;div class="media-control"&gt;<br />
+          &lt;svg viewBox="0 0 96 96"&gt;<br />
+          &lt;defs&gt;<br />
+          &lt;linearGradient x1="87.565%" y1="16.87%"&gt;<br />
+          &lt;stop stop-color="#FFF" stop-opacity="0" /&gt;<br />
+          &lt;stop stop-color="#FFF" offset="1" /&gt;<br />
+          &lt;/linearGradient&gt;
+        </div>
+
+        <div class="hero-conteudo">
+          <span class="tag">DESENVOLVEDOR FREELANCER</span>
+
+          <h1>
+            Ideias que ganham <br />
+            <span>vida digital.</span>
+          </h1>
+
+          <p>
+            Desenvolvo sistemas web, aplicações desktop e aplicativos mobile para
+            transformar desafios reais em soluções simples, eficientes e bonitas.
+          </p>
+
+          <div class="hero-acoes">
+            <a href="#projetos">Conheça meu trabalho ↗</a>
+            <a href="#contato">Vamos conversar</a>
+          </div>
+
+          <div class="metricas">
+            <div class="metrica">
+              <strong class="metrica-valor">6+</strong>
+              <span class="metrica-descricao">anos de experiência</span>
+            </div>
+
+            <div class="metrica">
+              <strong class="metrica-valor">42</strong>
+              <span class="metrica-descricao">projetos entregues</span>
+            </div>
+
+            <div class="metrica">
+              <strong class="metrica-valor">12</strong>
+              <span class="metrica-descricao">clientes satisfeitos</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="card-codigo">
+            <div class="card-header">
+              <span class="ponto vermelho"></span>
+              <span class="ponto amarelo"></span>
+              <span class="ponto verde"></span>
+            </div>
+
+            <pre><code>const solution = {
+  idea: 'transformadora',
+  design: 'intuitivo',
+  technology: 'eficiente'
+};
+
+// pronto(a) para o próximo desafio</code></pre>
+          </div>
+        </div>
+
+        <div class="scroll-indicador">
+          <a href="#sobre" aria-label="Rolar para a seção sobre">↓</a>
+        </div>
+      </section>
+
+      <section id="sobre">
+        <div class="sobre-imagem">
+          <img src="assets/img/sobre-mim-img.avif" alt="Programador trabalhando no computador" />
+          <div class="status">
+            <span class="status-ponto"></span>
+            <span>Disponível para novos projetos</span>
+          </div>
+        </div>
+
+        <div class="sobre-conteudo">
+          <span class="tag">SOBRE MIM</span>
+          <h2>
+            Tecnologia com propósito,
+            <span>design com significado.</span>
+          </h2>
+          <p>
+            Sou Pedro Colares, desenvolvedor de software e apaixonado por criar
+            produtos digitais que facilitam a vida das pessoas e tornam os negócios
+            mais eficientes.
+          </p>
+          <p>
+            Trabalho de forma próxima aos meus clientes, desde a descoberta do
+            problema até a entrega da solução. Acredito que bons sistemas nascem da
+            combinação entre escuta, criatividade e código bem construído.
+          </p>
+
+          <div class="tecnologias">
+            <span class="badge">JavaScript</span>
+            <span class="badge">Python</span>
+            <span class="badge">C++</span>
+            <span class="badge">C</span>
+            <span class="badge">Java</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicos">
+        <div class="servicos-header">
+          <div class="servico-titulo">
+            <span class="tag">COMO POSSO AJUDAR</span>
+            <h2>Soluções para diferentes desafios</h2>
+          </div>
+
+          <p class="servicos-descricao">
+            Da primeira ideia ao produto final, desenvolvendo aplicações sob medida
+            para pessoas e empresas.
+          </p>
+        </div>
+
+        <div class="servicos-container">
+          <article class="servico">
+            <div class="servico-icone">⌘</div>
+            <h3>Sistemas Web</h3>
+            <p>
+              Plataformas, painéis administrativos, lojas virtuais e sistemas
+              personalizados que funcionam diretamente no navegador.
+            </p>
+            <a href="#">Saiba Mais →</a>
+          </article>
+
+          <article class="servico servico-destaque">
+            <div class="servico-icone">▣</div>
+            <h3>Aplicações Mobile</h3>
+            <p>
+              Aplicativos para Android e iOS com interfaces intuitivas, desempenho e
+              uma experiência agradável para os usuários.
+            </p>
+            <a href="#">Saiba Mais →</a>
+          </article>
+
+          <article class="servico">
+            <div class="servico-icone">▤</div>
+            <h3>Aplicações Desktop</h3>
+            <p>
+              Sistemas instaláveis para Windows, macOS e Linux, ideais para rotinas
+              internas e operações que precisam funcionar offline.
+            </p>
+            <a href="#">Saiba Mais →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="projetos">
+        <span class="tag">PORTFÓLIO</span>
+        <h2>Projetos que fazem a diferença</h2>
+
+        <div class="projetos-container">
+          <article class="projeto">
+            <div class="projeto-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80"
+                alt="Dashboard Nexo Gestão"
+              />
+            </div>
+            <span class="categoria">SISTEMA WEB</span>
+            <h3>Nexo Gestão</h3>
+            <p>
+              Plataforma de gestão financeira para acompanhamento de receitas,
+              pedidos e resultados do negócio.
+            </p>
+            <a href="#">Ver projeto →</a>
+          </article>
+
+          <article class="projeto">
+            <div class="projeto-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&w=600&q=80"
+                alt="Aplicativo Grão App"
+              />
+            </div>
+            <span class="categoria">APLICAÇÃO MOBILE</span>
+            <h3>Grão App</h3>
+            <p>
+              Aplicativo de pedidos e fidelidade para cafeteria, com uma
+              experiência simples e intuitiva para os clientes.
+            </p>
+            <a href="#">Ver projeto →</a>
+          </article>
+
+          <article class="projeto">
+            <div class="projeto-imagem">
+              <img
+                src="https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=600&q=80"
+                alt="Sistema Ateliê Pro"
+              />
+            </div>
+            <span class="categoria">APLICAÇÃO DESKTOP</span>
+            <h3>Ateliê Pro</h3>
+            <p>
+              Sistema de organização de agenda e finanças para profissionais
+              autônomos.
+            </p>
+            <a href="#">Ver projeto →</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="processo">
+        <div class="processos-header">
+          <div class="processo-titulo">
+            <span class="tag">MEU PROCESSO</span>
+            <h2>Do desafio à solução</h2>
+          </div>
+
+          <p class="processo-descricao">
+            Um processo colaborativo para tirar seu projeto do papel.
+          </p>
+        </div>
+
+        <div class="processo-container">
+          <article class="etapa">
+            <span class="numero">01</span>
+            <h3>Descoberta</h3>
+            <p>Entendo o problema, os objetivos e as necessidades do projeto.</p>
+          </article>
+
+          <article class="etapa">
+            <span class="numero">02</span>
+            <h3>Planejamento</h3>
+            <p>Defino a estrutura, as funcionalidades e o caminho para a solução.</p>
+          </article>
+
+          <article class="etapa">
+            <span class="numero">03</span>
+            <h3>Desenvolvimento</h3>
+            <p>Transformo o planejamento em uma solução funcional e bem construída.</p>
+          </article>
+
+          <article class="etapa">
+            <span class="numero">04</span>
+            <h3>Entrega</h3>
+            <p>Finalizo o projeto, realizo os ajustes e entrego a solução.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contato">
+        <div class="contato-conteudo">
+          <span class="tag">ENTRE EM CONTATO</span>
+            <h2>Tem uma ideia?<br />
+          <span>Vamos conversar.</span>
+          </h2>
+          <p>
+           Conte um pouco sobre o seu projeto. Será um prazer entender o
+           desafio e pensar em uma solução para você.
+          </p>
+        </div>
+        <div class="contato-container">
+          <a
+            href="mailto:colaresp47@gmail.com?subject=Contato%20pelo%20site"
+            class="cartao-contato"
+          >
+            <div class="icone-box">
+              <i class="fa-solid fa-at"></i>
+            </div>
+
+            <div class="info-box">
+              <span class="contato-titulo">Escreva para mim</span>
+              <strong class="dados">colaresp47@gmail.com</strong>
+            </div>
+          </a>
+
+          <a
+            href="https://wa.me/5538991912364?text=Olá,%20gostaria%20de%20falar%20com%20você!"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="cartao-contato"
+          >
+            <div class="icone-box">
+              <i class="fa-brands fa-whatsapp"></i>
+            </div>
+
+            <div class="info-box">
+              <span class="contato-titulo">Chame no WhatsApp</span>
+              <strong class="dados">(38) 99191-2364</strong>
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape">
+      <div class="rodape-final">
+        <p>© 2026 Pedro Colares. Desenvolvido com criatividade e código.</p>
+      </div>
+      <div class="rodape-redes">
+        <a
+          href="https://www.linkedin.com/in/pedro-colares-131a7320a"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a 
+          href="https://github.com/Pedro-Colares" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </div>
+    </footer>
+
+    <script src="js/portfolio.js" defer></script>
+  </body>
+</html>
